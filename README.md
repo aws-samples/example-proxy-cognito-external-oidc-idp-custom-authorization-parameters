@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-## My Project
-
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
-=======
 # Example proxy between Amazon Cognito and a 3rd party OIDC IdP with custom authorization parameters
 This sample shows how to deploy a proxy between an Amazon Cognito User Pool and a 3rd party OIDC identity provider (IdP) with custom parameters required for authorization. 3rd party IdPs, such as [Login.gov](https://login.gov/), supports private_key_jwt as the authentication method for clients who want to federate to Login.gov using OIDC and requires certain parameters to be passed to the authorization endpoint. This sample specifically focuses on three use-cases to authenticate clients:
 * pass custom parameters to authorization endpoint
@@ -186,4 +167,3 @@ $ cdk destroy
 ```
 
 Make sure to also remove the application integration on the IdP side.
->>>>>>> c16118b (Added use disclaimer)
